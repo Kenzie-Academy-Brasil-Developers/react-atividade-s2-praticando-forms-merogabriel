@@ -1,5 +1,5 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: royalblue;
   color: darkgoldenrod;
 }
@@ -33,4 +33,18 @@ button {
   border-radius: 15px;
   color: royalblue;
   font-size: 25px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1 px solid yellow;
 }
